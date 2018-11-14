@@ -78,12 +78,12 @@ class MainActivity : AppCompatActivity() {
     private fun sendSms(){
        // val number = this.getSharedPreferences("Phone1", Context.MODE_PRIVATE)
 
-        //val number = this.getPreferences(Context.MODE_PRIVATE) ?: return
-        //val phone1: String = sharedPref.getString("Phone1","")
+        val sharedPref = this.applicationContext.getSharedPreferences("PreferenceFile", Context.MODE_PRIVATE)
+        val phone1: String = sharedPref.getString("Phone1","")
 
         val text = "Emergency Bro"
 
-        SmsManager.getDefault().sendTextMessage("0774483828",null,text,null,null)
+        SmsManager.getDefault().sendTextMessage(phone1,null,text,null,null)
 
         Toast.makeText(this,"Sms Sent",Toast.LENGTH_SHORT).show()
 
