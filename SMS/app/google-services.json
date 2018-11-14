@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "905623709182",
+    "firebase_url": "https://smsfirebaseproject-8a2f0.firebaseio.com",
+    "project_id": "smsfirebaseproject-8a2f0",
+    "storage_bucket": "smsfirebaseproject-8a2f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905623709182:android:60b4c603f5023295",
+        "android_client_info": {
+          "package_name": "com.example.vidushan.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905623709182-7m1l9f1jtefv7vdbej7sjs311opr7m6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vidushan.myapplication",
+            "certificate_hash": "994f635635106c72491d042e98e7e56d65ab0db5"
+          }
+        },
+        {
+          "client_id": "905623709182-4dps1k72q5igu62pd9nmt00h063ca9gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQXvW832VVgEokL4x7OOyWeMKXSpjAt7U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905623709182-4dps1k72q5igu62pd9nmt00h063ca9gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
